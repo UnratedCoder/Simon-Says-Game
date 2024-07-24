@@ -1,0 +1,51 @@
+* {
+  text-align: center;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 6px solid black;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.container {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.one {
+  background-color: #d95980;
+}
+
+.two {
+  background-color: #63aac0;
+}
+
+.three {
+  background-color: #f99b45;
+}
+
+.four {
+  background-color: #819ff9;
+}
+
+.gameFlash {
+  background-color: white;
+}
+
+.userFlash {
+  background-color: green;
+}
+
+#score {
+  position: fixed;
+  top: 0%;
+  left: 80%;
+}
