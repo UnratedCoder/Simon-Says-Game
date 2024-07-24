@@ -9,7 +9,6 @@ let h2 = document.querySelector("h2");
 document.addEventListener("keypress", function () {
   if (started == false) {
     started = true;
-    console.log("Game Started");
     setTimeout(levelUp, 100);
   }
 });
@@ -38,8 +37,6 @@ function levelUp() {
   let color = box[randIdx];
   let randBox = document.querySelector(`.${color}`);
   gameSeq.push(color);
-  console.log("Hints");
-  console.log(gameSeq);
   gameFlash(randBox);
 }
 
